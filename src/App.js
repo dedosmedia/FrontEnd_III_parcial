@@ -1,6 +1,8 @@
+import Aventura from "./components/Aventura.jsx";
+
 function App() {
   return (
-    <div className="App">
+    <div className="layout">
       <Aventura/>
     </div>
   );
