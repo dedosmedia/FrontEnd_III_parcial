@@ -75,10 +75,10 @@ class Aventura extends React.Component {
             <>
                 <h1 className="historia">{ historia }</h1>
                 <div className="opciones">
-                    <Button key = { "a" } handleClick = { this.handleClick } letra = { "a" } texto = { opciones.a }/>
-                    <Button key = { "b" } handleClick = { this.handleClick } letra = { "b" } texto = { opciones.b }/>
+                    <Button key={ "a" } handleClick={ this.handleClick } letra={ "a" } texto={ opciones.a }/>
+                    <Button key={ "b" } handleClick={ this.handleClick } letra={ "b" } texto={ opciones.b }/>
                 </div>                                
-                <Historial ultima = { this.state.ultimaEleccion } historial = { this.state.historial } />
+                <Historial ultima={ this.state.ultimaEleccion } historial={ this.state.historial } />
             </>
         )
     }
